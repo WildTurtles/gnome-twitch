@@ -47,7 +47,7 @@ sudo ninja -C build install
 
 **Note:** `${PLAYER_BACKENDS_YOU_WANT}` should be replaced with a
 comma separated list of
-`gstreamer-opengl,gstreamer-cairo,gstreamer-clutter,mpv-opengl`, for
+`gstreamer-opengl,gstreamer-cairo,gstreamer-clutter,gstreamer-vaapi,mpv-opengl`, for
 example `-Dbuild-player-backends=gstreamer-cairo,mpv-opengl`
 
 #### Local install
